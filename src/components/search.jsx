@@ -182,7 +182,7 @@ const Header = ({ setingInputVal, inputVal }) => {
     <div className='header-container'>
       <div onClick={reload} className='reloadBtn'><h1>MOVIE</h1></div>
       <div className='input-box'>
-        <img src="../public/img/search-icon.png" onClick={showInput} />
+        <img src="/img/search-icon.png" onClick={showInput} />
         <form id='searchInput' onSubmit={setingInputVal}>
           <input type="text" id='search-input' />
         </form>
@@ -316,7 +316,7 @@ const DrawMovie = ({ endPoint, baseUrl, sectionTitle, genreObj }) => {
         <h1 className='home-list-title'>{sectionTitle}</h1>
 
         <div className='flex-container'>
-          <div className="left arrow" onClick={scrollLeft}><img src="../public/img/left.png" alt="next_left" /></div>
+          <div className="left arrow" onClick={scrollLeft}><img src="/img/left.png" alt="next_left" /></div>
           <div className='home-movie-list' ref={movieListRef}>
             {endPoint.map(movie => (
               <div key={movie.id} className="home-movie-item">
@@ -329,7 +329,7 @@ const DrawMovie = ({ endPoint, baseUrl, sectionTitle, genreObj }) => {
               </div>
             ))}
           </div>
-          <div className="right arrow" onClick={scrollRight}><img src="../public/img/right.png" alt="next_left" /></div>
+          <div className="right arrow" onClick={scrollRight}><img src="/img/right.png" alt="next_left" /></div>
         </div>
       </div>
     </>
