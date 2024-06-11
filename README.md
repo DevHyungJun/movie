@@ -5,5 +5,6 @@ TMDB API를 사용해 영화 정보를 가져 왔다.
 검색결과화면에서 무한스크롤을 구현하였다.
 
 홈화면: 반응형지원X, 검색화면: 반응형지원
+데스크탑 화면으로 보는 것을 추천
 
 link: https://devhyungjun.github.io/movie/
