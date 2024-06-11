@@ -182,7 +182,7 @@ const Header = ({ setingInputVal, inputVal }) => {
     <div className='header-container'>
       <div onClick={reload} className='reloadBtn'><h1>MOVIE</h1></div>
       <div className='input-box'>
-        <img src="/img/search-icon.png" onClick={showInput} />
+        <img src="/img/search-icon.png" onClick={showInput} alt='search-icon' />
         <form id='searchInput' onSubmit={setingInputVal}>
           <input type="text" id='search-input' />
         </form>
