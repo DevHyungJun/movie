@@ -3,7 +3,7 @@ import { SearchScreen } from './components/search';
 import './App.css';
 
 
-const API_KEY = '4ac61429713672261782f10ba3e8de9b';
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const App = () => {
   return (
